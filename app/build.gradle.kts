@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     id("org.jetbrains.kotlin.kapt")
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -69,7 +70,6 @@ dependencies {
     // Dagger - Hilt
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
-    implementation(libs.androidx.hilt.lifecycle.viewmodel)
     kapt(libs.androidx.hilt.compiler)
 
     // Timber
@@ -88,5 +88,6 @@ dependencies {
     api(libs.exoplayer.core)
     api(libs.exoplayer.ui)
     api(libs.extension.mediasession)
+    implementation(libs.androidx.media3.session)
 
 }

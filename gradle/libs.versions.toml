@@ -15,9 +15,11 @@ espressoCore = "3.6.1"
 appcompat = "1.7.0"
 kotlinxCoroutinesCore = "1.9.0"
 lifecycleExtensions = "2.8.7"
+lifecycleViewmodelKtxVersion = "2.4.0"
 material = "1.12.0"
 activity = "1.9.3"
 constraintlayout = "2.2.0"
+media3Session = "1.5.1"
 navigationFragmentKtx = "2.8.5"
 timber = "4.7.1"
 
@@ -26,6 +28,8 @@ androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-hilt-compiler = { module = "androidx.hilt:hilt-compiler", version.ref = "hiltCompiler" }
 androidx-hilt-lifecycle-viewmodel = { module = "androidx.hilt:hilt-lifecycle-viewmodel", version.ref = "hiltLifecycleViewmodel" }
+androidx-lifecycle-viewmodel-ktx-v240 = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtxVersion" }
+androidx-media3-session = { module = "androidx.media3:media3-session", version.ref = "media3Session" }
 androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
 androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationFragmentKtx" }
 compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
